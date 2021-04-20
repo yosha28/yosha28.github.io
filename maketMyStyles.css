@@ -16,7 +16,7 @@ body {
 	flex-direction: row;
 	justify-content: space-between;
 	align-items:center;
-	margin:0 1.5em;
+	margin:1em 1.5em;
 }
 
 header .div1{
@@ -509,6 +509,8 @@ header nav{
 header .div1{
 	margin-top:1em;
 	align-self: flex-start;
+	width: 7em;
+	height: 2.5em;
 	}
 
 header .div2{
@@ -520,8 +522,7 @@ header .div2{
 	}
 	header .div3{
 	align-self: flex-end;
-	margin-right: 1em;
-	margin-top: -4em;
+	margin-top: -5em;
 	}
 
 	.navFirstS1{
@@ -568,6 +569,7 @@ header .div2{
 	font-style: normal;
 	font-size: 1em;
 	color: #424242;
+	margin:0 0.5em;
 }
 	.Second-screen nav{
 		flex-wrap: wrap;

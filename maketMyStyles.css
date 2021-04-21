@@ -89,35 +89,35 @@ header a{
 	line-height: 1.55em;	
 	font-family: Lato;
 	color: #484848;
+	margin-bottom: 3em;
 }
-.button-hm{	
-	padding: 1em 2.5em;
+.buttonFindYour{
 	width: 11.35em;
 	height: 3.25em;
+	text-align: center;
+	padding: 1em 2.5em;
+	
 	background: #01996D;
 	border: 1px solid #01996D;
 	box-sizing: border-box;
 	border-radius: 4px;
-	text-align: center;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
 }
-.button-hm:hover,
+.text a,.Third-screen a{
+	text-decoration: none;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1em;
+	line-height: 1.25em;
+	color: #FFFFFF;
+}
+
 .buttonLetsGet:hover,
 .button-trial:hover,
 .buttonFindYour:hover
 {
 	border-color:  #01996D;
 	box-shadow: 0px 0px 1.5em  #01996D;
-}
-.button-hm  span {
-	font-family: Lato;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 1em;
-	color: #FFFFFF;
 }
 
 .First-screen{
@@ -251,7 +251,7 @@ header a{
 	display: flex;
 	flex-direction: row;
     justify-content: center;
-     margin:0 1.5em;
+     margin:1.5em 1.5em;
 }
 .Second-screen .div1{
 	max-width: 28.5em;
@@ -297,6 +297,7 @@ header a{
 	font-size: 1.25em;
 	line-height: 1.5em;
 	color: #FFFFFF;
+	margin-bottom: 1.5em;
 }
 .Second-screen a{
 	text-decoration:none;
@@ -338,7 +339,7 @@ color: #FFFFFF;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-image: url('img/girlScreen3.png');
-border-radius: 0.5em;
+	border-radius: 1em;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
@@ -443,26 +444,6 @@ li{
 	color: #484848;
 }
 
-.buttonFindYour{
-	width: 11.35em;
-	height: 3.25em;
-	text-align: center;
-	padding: 1em 2.5em;
-	
-	background: #01996D;
-	border: 1px solid #01996D;
-	box-sizing: border-box;
-	border-radius: 4px;
-}
-.Third-screen a{
-	text-decoration: none;
-	font-family: Lato;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 1em;
-	line-height: 1.25em;
-	color: #FFFFFF;
-}
 
 
 footer{
@@ -553,16 +534,16 @@ header .div2{
 	width: 5em;
 }
  .div-main1 .div1{
- 	margin-top:0;
- 	margin-left:-3rem;
+ 	margin-top:1em;
+ 	margin-left:-3em;
  }
  .div-main2 .div1{
- 		margin-top:0;
-	margin-left:-3rem;
+ 		margin-top:2em;
+	margin-left:-1.5em;
  }
  .div-main3 .div1{
  		margin-top:0;
- margin-left:-3rem;
+ margin-left:-3em;
  }
 .navFirstS2 p{
 	font-family: Lato;
@@ -583,11 +564,14 @@ header .div2{
 	.Third-screen nav{
 		flex-wrap:wrap;
     	justify-content: center;
-    	margin:2em 2em;
+    	margin:3em 2em;
     
 	}
+	.Third-screen .p4{
+		margin-bottom: 3em;
+	}
 	.div11{
-		margin-left:-1.5em;
+		margin-left:-1em;
 	}
 }
 

@@ -146,7 +146,6 @@
 
 					function print_doc(){
 						var blockToPrint=document.getElementById('blockToPrint');
-						console.log(blockToPrint);
 						var newWin=window.open('Print-Window');
 						newWin.document.write('<html><body onload="window.print()">'+ blockToPrint.innerHTML+'</body></html>');
 						newWin.document.close();

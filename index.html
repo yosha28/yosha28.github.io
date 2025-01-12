@@ -1,162 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="normalize.css">
-	<link rel="stylesheet" href="maketMyStyles.css">
-	<title>Alivio</title>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--  <link rel="stylesheet" href="css/normalize.css">-->
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <title>Шаблон резюме</title>
+
 </head>
 <body>
-	<div class="preloader">
-		<div class="preloader_image">
+<div class="container">
+  <!--  <div class="header">-->
+  <!--    <img src="img/foto.png" alt="Maiia Pushkarova">-->
+  <!--    <div class="info">-->
+  <!--      <h1> Maiia Pushkarova </h1>-->
+  <!--      <p>Geburtsdatum: 28.01.1982</p>-->
+  <!--      <p>Nationalität: Ukraine, status S</p>-->
+  <!--      <p>Geburtsort: Donetsk</p>-->
+  <!--      <p>Zivilstand: verheiratet,keine Kinder</p>-->
+  <!--      <p>14. Juni 2000 in Jede Stadt</p>-->
+  <!--    </div>-->
+  <!--  </div>-->
+  <div class="content">
+    <div class="column1">
+      <div class="section">
+        <img src="img/foto.png" alt="Maiia Pushkarova">
+      </div>
+      <div class="section">
 
-		</div>
-	</div>
-	<header>
-		<div class="wrapper">
-			<nav>
-				<div class="div1"></div>
-				<div class="div2" >
-					<a href="#">Why Alivio</a>
-					<a href="#">Solution</a>
-					<a href="#">Community</a>
-					<a href="#">Pricing</a>
+        <!--      <div class="info">-->
+        <h1> Maiia Pushkarova </h1>
+        <ul>
+          <li>Geburtsdatum: 28.01.1982</li>
+          <li>Nationalität: Ukraine, status S</li>
+          <li>Geburtsort: Donetsk</li>
+          <li>Zivilstand: verheiratet,keine Kinder</li>
 
-				</div>
-				<div class="div3">
-					<a href="#">Sign in</a>
-					<a href="#"><span class="button-trial">Start Trial</span></a>
-					<button class="printBt" onclick="print_doc()">Print our presentation </button>
-				</div>
+          <li></li>
+          <li></li>
+        </ul>
 
-			</nav>
-		</div>
-		<div class="header-main">
-			<div class="wrapper">
-				<div class="text">
-					<p class="p1">Be aware, <br />Manage well.</p>
-					<p class="p2"> Everyone experiences <b></b>stress in different ways. <br> Let Alivio guide you, in a personalized journal <br> experience, to overcome your stress.</p>
-					<a href="#"><span class="buttonFindYour">Find your way</span></a>
-				</div>
+      </div>
+      <div class="section">
+        <div class="icon-section">
+          <a href="https://www.linkedin.com/in/maiia-pushkarova-b87637207/">
+            <img src="img/icons8-linkedin.png">
+            <span class="buttonLink">Linkedin</span>
+          </a>
+          <a target="_blank" href="https://github.com/yosha28">
+            <img src="img/icons8-github.png">
+          </a>
+          <a target="_blank" href="https://github.com/yosha28">
+            <img src="img/icon-whatsapp.png">
+          </a>
+          <a target="_blank" href="https://github.com/yosha28">
+            <img src="img/icon-gmail.png">
+          </a>
+          <a target="_blank" href="https://github.com/yosha28">
+            <img src="img/icon-telegram.png">
+          </a>
+        </div>
+      </div>
+      <!--        </div>-->
 
+      <!--      <div class="section">-->
+      <!--        <h2>FREI </h2>-->
+      <!--        <ul>-->
 
-			</div>
-		</div>
-	</header>
-	<main>
-		<section class="First-screen">
-			<div class="wrapper">
-				<nav class="navFirstS1">
-					<div class="divFirstS1">
-						<p>How it works</p>
-						<h1>Understand & Release <br> the stress in 3 steps</h1>
-					</div>
-					<div class="divFirstS2">
-						<p class="p1">Alivio offers as many journals it takes, tackling different areas such as <br>anxiety, overwhelmedness, sadness, or anger, and a variety of personal <br> causes, to help you become aware of your emotions, and guide you in how <br> to manage stress.</p>
-					</div>
-				</nav>
-				<nav class="navFirstS2" id="blockToPrint">
-					<div class="div-main1">
-						<img class="img1" src="img/01.png" alt="01">
-						<div class="div1">Personalize</div>
+      <!--        </ul>-->
+      <!--      </div>-->
+      <div class="section">
+        <h2>Kenntnisse</h2>
+        <h3>Sprachekenntnisse</h3>
+        <ul>
+          <li>Russisch - Muttersprache</li>
+          <li>Ukrainisch - C2</li>
+          <li>Englisch - A2</li>
+          <li>Deutsch - B1</li>
+        </ul>
+        <h3>Programmierkenntnisse</h3>
+        <ul>
+          <li>JAVA</li>
+          <li>C#</li>
+          <li></li>
+        </ul>
+      </div>
 
-						<p>Answer a quick survey about how you express yourself, what causes you stress, and what area would you like to work on. This way, we can fully personalize your journal!</p>
-						<img class="img3"src="img/mainFS1.png" alt="pillter">
+    </div>
+    <div class="column2">
+      <div class="section">
+        <h2>Berufserfahrung</h2>
+        <ul>
+          <li>11/2017-02/2022
+            eigenes Geschäft
+            selbstständig
+          </li>
+          <li>07/2015-10/2017
+            "Royal Canin"
+            Verkaufsleiterin
+          </li>
+          <li>10/2008-10/2014
+            Einzelhandel mit Tiefkühlkost
+            Aussendienstmitarbeiter
+          </li>
+          <li>09/2006-09/2008
+            Einzelhandel mit Tiefkühlkost
+            PC-Operator
+          </li>
+          <li>10/2000-05/2006
+            Casino Donetsk
+            Croupierin
+          </li>
+        </ul>
+      </div>
+      <div class="section">
+        <h2>Bildungsweg</h2>
+        <ul>
+          <li>11/2018 - 05/2022
+            Computerakademie "ItStep" Ukraine
+            Full-Stack-Entwickler
+          </li>
+          <li>09/2000 - 06/2006
+            nationale Universität Donetsk Ukraine
+            Studiengang Mathematik
+            Mathematik- und Informatiklehrerin
+          </li>
+          <li>09/1996 - 07/1999: Gymnasium , Donetsk Ukraine</li>
+          <li>09/1989 - 06/1996: Gemeinschaftsschule, Donetsk Ukraine,</li>
+        </ul>
+      </div>
 
-					</div>
-					<div class="div-main2">
-						<img class="img1" src="img/02.png" alt="02">
-						<div class="div1">Write & Understand</div>
-						<p>Write, draw, reflect, understand. Alivio will guide you through the prompts and will help you manage your stress!</p>
-						<img class="img3" src="img/mainFS2.png" alt="pillter">
-					</div>
-					<div class="div-main3">
-						<img class="img1" src="img/03.png" alt="03">
-						<div class="div1">Alivio!</div>
-						<p>Now you are aware, and have a way to manage and overcome your own stress.
-							What are you waiting for? Alivio today!</p>
-							<img  class="img3" src="img/mainFS3.png" alt="pillter">
-						</div>
+    </div>
+  </div>
+  <!--  <div class="footer">-->
+  <!--   -->
+  <!--    <div class="section">-->
+  <!--      <a href="https://www.linkedin.com/in/maiia-pushkarova-b87637207/">-->
+  <!--        <img src="img/icons8-linkedin.png">-->
+  <!--        <span class="buttonLink">Linkedin</span>-->
+  <!--      </a>-->
+  <!--      <a target="_blank" href="https://github.com/yosha28">-->
+  <!--        <img src="img/icons8-github.png">-->
+  <!--      </a>-->
+  <!--      <a target="_blank" href="https://github.com/yosha28">-->
+  <!--        <img src="img/icon-whatsapp.png">-->
+  <!--      </a>-->
+  <!--      <a target="_blank" href="https://github.com/yosha28">-->
+  <!--        <img src="img/icon-gmail.png">-->
+  <!--      </a>-->
+  <!--      <a target="_blank" href="https://github.com/yosha28">-->
+  <!--        <img src="img/icon-telegram.png">-->
+  <!--      </a>-->
+  <!--    </div>-->
 
-					</nav>
-
-				</div>
-			</section>
-			<section class="Second-screen">
-				<div class="wrapper">
-					<nav>
-						<div class="div1">
-							<h3>Let's hear about Kayla's success story</h3>
-							<p>See how well Alivio works in a real customer’s life. </p>
-							<a href="#"><span class="buttonLetsGet">Let’s get started</span></a>										</div>
-							<div class="div2">
-								<a href=""><img class="img2" src="img/play.png" alt="03"></a>
-							</div>
-						</nav>
-					</div>
-				</section>
-				<section class="Third-screen">
-					<div class="wrapper">
-						<nav>
-							<div class="div1">
-								<div class="div11">
-									<p class="p1">Customized For</p>
-									<hr>
-									<img class="imgFace" src="img/girlFaceScreen3.png" alt="face">
-									<p class="p2">Mikayla</p>
-									<ul>Your custom contents
-										<li>Understand Your Stress</li>
-										<li>Anger Management</li>
-									</ul>
-								</div>
-							</div>
-							<div class="div2">
-								<p class="p3">Our product</p>
-								<p class="p5">You tell us your stress,<br>We make your diary</p>
-								<p class="p4">Everyone experiences it, and in different ways. <br>
-									Let Alivio guide you, in a personalized journal experience, to <br>over come your stress.</p>
-									<a href="#"><span class="buttonFindYour">Find your way</span></a>
-								</div>
-							</nav>
-						</div>
-					</section>
-				</main>
-				<footer>
-					<div class="wrapper">
-						<nav>
-							<div>
-								<a href="#"><span class="spanF1">Alivio</a>
-									<a href="#">Why Alivio</a>
-									<a href="#">Solution</a>
-									<a href="#">Community</a>
-									<a href="#">Pricing</a>
-								</div>
-							</nav>
-						</div>
-					</footer>
-
-					<script>
-					window.onload=function(){
-						window.setTimeout(function(){
-							document.body.classList.add('loaded');
-						},4000);
-					};
-
-					function print_doc(){
-						var blockToPrint=document.getElementById('blockToPrint');
-						var newWin=window.open('Print-Window');
-						newWin.document.write('<html><body onload="window.print()">'+ blockToPrint.innerHTML+'</body></html>');
-						newWin.document.close();
-
-					}
+  <!--  </div>-->
+</div>
+<script>
+  window.onload = function () {
+    window.setTimeout(function () {
+      document.body.classList.add('loaded');
+    }, 4000);
+  };
 
 
-				</script>
-
-
-
-
-			</body>
-			</html>
+</script>
+</body>
+</html>

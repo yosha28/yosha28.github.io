@@ -55,8 +55,8 @@ li {
   /*background-color: #e0f7fa;*/
   font-family: Roboto, Arial, sans-serif;
   font-size: 20px;
+  background-image: linear-gradient(90deg, rgba(58, 86, 234, 0.49), rgba(30, 103, 23, 0.34), rgba(239, 104, 229, 0.63));
   background-color: #2AA5A0;
-  background-image: linear-gradient(90deg, #E3535D, #2AA5A0);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   padding: 20px;
@@ -87,7 +87,7 @@ img {
 
 .column1 {
   width: 40%;
-  background-image: radial-gradient(circle, #bbc4f3, #e8f5e7, #f3cdf0);
+  background-image: radial-gradient( circle, #bbc4f3, #e8f5e7, #f3cdf0);
   /*border-radius: 15%;*/
 }
 
@@ -147,4 +147,10 @@ h3{
 .icon-section img {
   width: 24px;
   height: 24px;
+}
+@media (min-width: 320px) and
+(max-width:1024px){
+  .container{
+    width: 100%;
+  }
 }

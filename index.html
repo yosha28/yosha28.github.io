@@ -7,42 +7,47 @@
   <link rel="stylesheet" href="normalize.css">
   <link rel="stylesheet" href="maketMyStyles.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <title>Шаблон резюме</title>
+  <title>Lebenslauf</title>
 
 </head>
 <body>
 <div class="container">
-  <!--  <div class="header">-->
-  <!--    <img src="img/foto.png" alt="Maiia Pushkarova">-->
-  <!--    <div class="info">-->
-  <!--      <h1> Maiia Pushkarova </h1>-->
-  <!--      <p>Geburtsdatum: 28.01.1982</p>-->
-  <!--      <p>Nationalität: Ukraine, status S</p>-->
-  <!--      <p>Geburtsort: Donetsk</p>-->
-  <!--      <p>Zivilstand: verheiratet,keine Kinder</p>-->
-  <!--      <p>14. Juni 2000 in Jede Stadt</p>-->
-  <!--    </div>-->
-  <!--  </div>-->
+  <div class="header">
+    <img src="img/IMG_Foto.png" alt="Maiia Pushkarova">
+    <div class="section">
+
+      <!--      <div class="info">-->
+      <h1> Maiia Pushkarova </h1>
+      <ul>
+        <li>Geburtsdatum: 28.01.1982</li>
+        <li>Staatsangehörigkeit: Ukraine (S - Ausweis)</li>
+        <li></li>
+        <li>Familienstand: verheiratet,keine Kinder</li>
+
+        <li></li>
+        <li></li>
+      </ul>
+
+    </div>
+  </div>
   <div class="content">
     <div class="column1">
-      <div class="section">
-        <img src="img/foto.png" alt="Maiia Pushkarova">
-      </div>
-      <div class="section">
+      <!--      <div class="section">-->
+      <!--        <img src="img/IMG_Foto.png" alt="Maiia Pushkarova">-->
+      <!--      </div>-->
+      <!--      //перенесла в header-->
+      <!--      <div class="section">-->
+      <!--        <h1> Maiia Pushkarova </h1>-->
+      <!--        <ul>-->
+      <!--          <li>Geburtsdatum: 28.01.1982</li>-->
+      <!--          <li>Staatsangehörigkeit: Ukraine (S - Ausweis)</li>-->
+      <!--          <li></li>-->
+      <!--          <li>Familienstand: verheiratet,keine Kinder</li>-->
 
-        <!--      <div class="info">-->
-        <h1> Maiia Pushkarova </h1>
-        <ul>
-          <li>Geburtsdatum: 28.01.1982</li>
-          <li>Nationalität: Ukraine, status S</li>
-          <li>Geburtsort: Donetsk</li>
-          <li>Zivilstand: verheiratet,keine Kinder</li>
-
-          <li></li>
-          <li></li>
-        </ul>
-
-      </div>
+      <!--          <li></li>-->
+      <!--          <li></li>-->
+      <!--        </ul>-->
+      <!--      </div>-->
       <div class="section">
         <div class="icon-section">
           <a href="https://www.linkedin.com/in/maiia-pushkarova-b87637207/">
@@ -72,19 +77,19 @@
       <!--        </ul>-->
       <!--      </div>-->
       <div class="section">
-        <h2>Kenntnisse</h2>
+        <h2>Kenntnisse und Fähigkeiten</h2>
         <h3>Sprachekenntnisse</h3>
         <ul>
           <li>Russisch - Muttersprache</li>
-          <li>Ukrainisch - C2</li>
-          <li>Englisch - A2</li>
+          <li>Ukrainisch - Fliessend</li>
+          <li>Englisch - Grundkenntnisse</li>
           <li>Deutsch - B1</li>
         </ul>
         <h3>Programmierkenntnisse</h3>
         <ul>
-          <li>JAVA</li>
+          <li>Java Spring Boot, Thymeleaf,</li>
           <li>C#</li>
-          <li></li>
+          <li>HTML</li>
         </ul>
       </div>
 
@@ -92,44 +97,42 @@
     <div class="column2">
       <div class="section">
         <h2>Berufserfahrung</h2>
-        <ul>
-          <li>11/2017-02/2022
-            eigenes Geschäft
-            selbstständig
-          </li>
-          <li>07/2015-10/2017
-            "Royal Canin"
-            Verkaufsleiterin
-          </li>
-          <li>10/2008-10/2014
-            Einzelhandel mit Tiefkühlkost
-            Aussendienstmitarbeiter
-          </li>
-          <li>09/2006-09/2008
-            Einzelhandel mit Tiefkühlkost
-            PC-Operator
-          </li>
-          <li>10/2000-05/2006
-            Casino Donetsk
-            Croupierin
-          </li>
-        </ul>
+        <dl>
+          <dt>
+            11/2017-02/2022
+          </dt>
+          <dd>eigenes Geschäft selbstständig</dd>
+          <dt>07/2015-10/2017</dt>
+          <dd>"Royal Canin" Verkaufsleiterin
+          </dd>
+          <dt>10/2008-10/2014
+          </dt>
+          <dd> Einzelhandel mit Tiefkühlkost Aussendienstmitarbeiter
+          </dd>
+          <dt>09/2006-09/2008
+          </dt>
+          <dd>Einzelhandel mit Tiefkühlkost PC-Operator</dd>
+          <dt>10/2000-05/2006
+          </dt>
+          <dd>Casino Donetsk Croupierin</dd>
+        </dl>
       </div>
       <div class="section">
         <h2>Bildungsweg</h2>
-        <ul>
-          <li>11/2018 - 05/2022
-            Computerakademie "ItStep" Ukraine
-            Full-Stack-Entwickler
-          </li>
-          <li>09/2000 - 06/2006
-            nationale Universität Donetsk Ukraine
+        <dl>
+          <dt>11/2018 - 05/2022
+          </dt>
+          <dd> Computerakademie "ItStep" Ukraine Full-Stack-Entwickler</dd>
+          <dt>09/2000 - 06/2006
+          </dt>
+          <dd>Nationale Universität Donetsk Ukraine
             Studiengang Mathematik
-            Mathematik- und Informatiklehrerin
-          </li>
-          <li>09/1996 - 07/1999: Gymnasium , Donetsk Ukraine</li>
-          <li>09/1989 - 06/1996: Gemeinschaftsschule, Donetsk Ukraine,</li>
-        </ul>
+            Mathematik- und Informatiklehrerin</dd>
+          <dt>09/1996 - 07/1999</dt>
+          <dd>Gymnasium , Donetsk Ukraine</dd>
+          <dt>09/1989 - 06/1996</dt>
+          <dd>Gemeinschaftsschule, Donetsk Ukraine</dd>
+        </dl>
       </div>
 
     </div>

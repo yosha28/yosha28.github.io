@@ -29,8 +29,8 @@ li {
   flex-direction: column;
   justify-content: space-around;
   /*justify-content: space-evenly;*/
-  width: 210mm;
-  height: 297mm;
+  width: 50rem;
+  height: 70rem;
   margin: auto; /* для центровки страницы */
   border: 1px solid #b67df5;
   border-radius: 9px;
@@ -43,8 +43,8 @@ li {
   /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);*/
   /*font-family: "JetBrains Mono Light";*/
   /*font-family: Open Sans, Helvetica, Arial, sans-serif;;*/
-  font-size: 1.12em;
-  line-height: 1.25em;
+  font-size: 1.12rem;
+  line-height: 1.25rem;
 }
 
 .header {
@@ -59,13 +59,13 @@ li {
   background-color: #2AA5A0;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  padding: 1.25em;
+  padding: 1.25rem;
   border-radius: 2%;
   box-shadow: 0 0 10px rgba(0.1, 0, 0, 0.1);
 }
 img {
   border-radius: 50%;
-  width:12em;
+  width:12rem;
   /*width: 98%;*/
   /*height: 130mm;*/
   /*padding-top: 15px;*/
@@ -87,7 +87,7 @@ img {
 
 .column1 {
   width: 40%;
-  background-image: radial-gradient( circle, #bbc4f3, #e8f5e7, #f3cdf0);
+  background-image: radial-gradient( circle, #d6dbf6, #f2faf2, #f3dbf1);
   /*border-radius: 15%;*/
 }
 
@@ -110,7 +110,7 @@ img {
   flex-direction: column;
 }
 h1{
-  font-size:1.8em ;
+  font-size:1.8rem ;
   color: darkslateblue;
 }
 h2 {
@@ -118,13 +118,13 @@ h2 {
   color: darkslateblue;
   padding-bottom: 10px;
   /*margin-bottom: 10px;*/
-  font-size: 1.3em;
+  font-size: 1.3rem;
 }
 h3{
   color: darkslateblue;
   padding-top: -1em;
   margin: 0;
-  font-size:1.1em ;
+  font-size:1.1rem ;
 }
 .section ul {
   list-style: none;
@@ -132,8 +132,8 @@ h3{
 }
 
 .section ul li {
-  margin: 0.625em 0;
-  line-height: 1.25em;
+  margin: 0.625rem 0;
+  line-height: 1.25rem;
 }
 
 /*.footer {*/
@@ -154,14 +154,14 @@ h3{
 }
 
 .icon-section img {
-  width:1.5em;
-  height: 1.5em;
+  width:1.5rem;
+  height: 1.5rem;
 }
 /*@media (min-width: 120px) and*/
 /*(max-width:1024px){*/
 /*  .container{*/
 /*    width: 100%;*/
 /*    font-size: 0.8em;*/
-/*  }*/
+/*  }
 
-/*}*/
+}

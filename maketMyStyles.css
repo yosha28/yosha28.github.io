@@ -66,7 +66,7 @@
     background-color: #ecd1e0;
 }
 .block14{
-    width: 100%;
+    width: 80%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -191,8 +191,25 @@ li {
 
 dt {
     margin-top: 0.1rem;
-}
+    font-weight: bold;
+    list-style-position: outside;
+    list-style: circle;
 
+}
+.column2 ul{
+    list-style: disc;
+    margin-left: 1rem;
+    /*margin-top: -0.5rem;*/
+}
+.column2 li{
+    /*text-indent: 1rem;*/
+    /*padding-right: 0.5rem;*/
+    /*color: #2c055d*/
+
+}
+.column2 h4{
+    margin:0.3rem;
+}
 .icon-section {
     display: flex;
     flex-direction: column;

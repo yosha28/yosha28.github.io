@@ -1,8 +1,6 @@
 @media body {
     margin: 0;
     padding: 0;
-
-
 }
 
 .wrapper {
@@ -65,7 +63,8 @@
     align-items: center;
     background-color: #ecd1e0;
 }
-.block14{
+
+.block14 {
     width: 80%;
     height: 100%;
     display: flex;
@@ -78,6 +77,26 @@
     font-size: 9rem;
     color: #3d0679;
 
+}
+
+.blockBew {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 0.2rem double #f8eaf3;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+.divBew1 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.divBew2 {
+    white-space: pre-line;
+    word-wrap: break-word;
 }
 
 .titName {
@@ -141,11 +160,11 @@
 h1 {
     font-size: 1.8rem;
     letter-spacing: .2rem;
-    color: darkslateblue;
+    color: #25083d;
 }
 
 h2 {
-    border-bottom: 2px solid #483D8BFF;
+    border-bottom: 2px solid #34224f;
     color: #34224f;
     letter-spacing: 0.1rem;
     margin-bottom: -.5rem;
@@ -155,8 +174,9 @@ h2 {
 }
 
 h3 {
-    color: darkslateblue;
+    color: #34224f;
     margin: 0;
+    margin-bottom: 0.3rem;
     font-size: 1.2rem;
 }
 
@@ -171,23 +191,22 @@ img {
     border-radius: 0;
 }
 
-.section ul {
+.section ul  {
     list-style: none;
     padding: 0;
 }
 
 ul {
+
     /*padding: -1rem;*/
 }
 
-.section ul li {
+.section  li {
+    margin-bottom: 0.3rem;
     /*margin: 0.625rem 0;*/
     /*line-height: 1.25rem;*/
 }
 
-li {
-    margin-bottom: 0.5rem;
-}
 
 dt {
     margin-top: 0.1rem;
@@ -196,20 +215,24 @@ dt {
     list-style: circle;
 
 }
-.column2 ul{
+
+.column2 ul {
     list-style: disc;
     margin-left: 1rem;
     /*margin-top: -0.5rem;*/
 }
-.column2 li{
+
+.column2 li {
     /*text-indent: 1rem;*/
     /*padding-right: 0.5rem;*/
     /*color: #2c055d*/
 
 }
-.column2 h4{
-    margin:0.3rem;
+
+.column2 h4 {
+    margin: 0.3rem;
 }
+
 .icon-section {
     display: flex;
     flex-direction: column;
@@ -220,6 +243,12 @@ dt {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-top: -2rem;
+
+}
+
+a {
+    color: #34224f;
+    font-size: 0.9rem;
 }
 
 .icon-section img {

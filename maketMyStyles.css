@@ -65,17 +65,17 @@
 }
 
 .block14 {
-    width: 80%;
-    height: 100%;
+    width: 60%;
+    height: 60%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
-    background-color: rgba(243, 235, 242, 0.04);
+    /*background-color: rgba(243, 235, 242, 0.04);*/
     position: absolute;
     z-index: 100;
     font-size: 9rem;
-    color: #3d0679;
+    color: rgba(61, 6, 121, 0.38);
 
 }
 
@@ -220,12 +220,12 @@ img {
     /*background: rgb(2, 0, 36);*/
     /*border-radius: 0.5rem;*/
     /*border-bottom-right-radius: 0.3rem;*/
-    background: linear-gradient(90deg, rgb(200, 220, 255) 0%,
-    rgb(200, 176, 255) 20%,
-    rgb(200, 132, 255) 40%,
-    rgb(200, 88, 255) 60%,
-    rgb(178, 62, 210) 80%,
-    rgb(119, 3, 190) 100%);
+    background: linear-gradient(90deg, #f6d4e3 0%,
+    #eeaeca 20%,
+    #dba6d3 40%,
+    #c99fdc 60%,
+    #b898e4 80%,
+    #ae94e9 100%);
     /*background-image: linear-gradient(#4f74f6, #3ee03e, rgb(236, 20, 200));*/
 
 }

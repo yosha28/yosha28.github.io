@@ -177,7 +177,7 @@ h2 {
 
 h3 {
     color: #34224f;
-    margin: 0;
+    margin:0;
     margin-bottom: 0.3rem;
     font-size: 1.2rem;
 }
@@ -206,12 +206,12 @@ img {
 }
 
 .skala1 {
-    width: 30%;
-    margin-right: 0.3rem;
+    width: 28%;
+    margin-right: 0.7rem;
 }
 
 .skala2 {
-    width: 70%;
+    width: 66%;
     height: 1.2rem;
     display: flex;
     justify-content: end;
@@ -231,18 +231,21 @@ img {
     /*background-image: linear-gradient(#4f74f6, #3ee03e, rgb(236, 20, 200));*/
 
 }
-.skala3{
+
+.skala3 {
     margin-right: 0.05rem;
     height: 90%;
     /*border-bottom-right-radius: 0.3rem;*/
 }
-.sprache{
+
+.sprache {
     display: flex;
     flex-direction: row;
-    justify-items: stretch;
+    /*justify-items: stretch;*/
 }
-.sprache2{
-margin-left: 0.8rem;
+
+.sprache2 {
+    margin-left: 0.8rem;
 }
 
 .section li {
@@ -255,7 +258,7 @@ margin-left: 0.8rem;
 dt {
     margin-top: 0.1rem;
     font-weight: bold;
-    list-style-position: outside;
+    /*list-style-position: outside;*/
     list-style: circle;
 
 }
@@ -288,9 +291,11 @@ a {
     font-size: 0.9rem;
 
 }
-.span{
+
+.span {
     font-size: 1rem;
 }
+
 .icon-section img {
     width: 1.4rem;
     height: 1.4rem;
@@ -301,7 +306,7 @@ a {
 (max-width: 1024px) {
     .container {
         width: 100%;
-        font-size: 0.8em;
+        font-size: 0.8rem;
     }
 
 }

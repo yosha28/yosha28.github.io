@@ -146,6 +146,7 @@
     display: flex;
     flex-direction: column;
     padding: 1rem;
+    margin-bottom: -0.5rem;
     /*background-color: #bed93d;*/
     /*padding-left: 1rem;*/
     /*padding-right: 1rem;*/
@@ -245,7 +246,7 @@ img {
 }
 
 .sprache2 {
-    margin-left: 0.8rem;
+    margin-left: 0.5rem;
 }
 
 .section li {

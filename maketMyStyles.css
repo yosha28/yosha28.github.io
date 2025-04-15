@@ -67,7 +67,7 @@
 .block14 {
     width: 60%;
     height: 60%;
-    display: flex;
+    display: none;/*flex*/
     flex-direction: column;
     justify-content: left;
     align-items: center;
@@ -106,7 +106,7 @@
 
 .tit1 {
     width: 35%;
-    display: flex;
+    display: flex;/*flex*/
     flex-direction: column;
     justify-content: end;
     /*padding: 1rem;*/
@@ -121,7 +121,9 @@
     background-color: #f8f6f7;
 
 }
-
+.sectionTit2{
+    display: none;
+}
 .column1 {
     width: 35%;
     height: 100%;
@@ -198,10 +200,14 @@ img {
     list-style: none;
     padding: 0;
 }
-
+/*ul{*/
+/*    margin: 0.5rem;*/
+/*}*/
 .skala {
     display: flex;
     flex-direction: row;
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
     /*justify-content: space-around;*/
     /*justify-items: center;*/
 }
@@ -238,7 +244,13 @@ img {
     height: 90%;
     /*border-bottom-right-radius: 0.3rem;*/
 }
+.program{
+    margin-top: -0.5rem;
 
+}
+.blockSkala{
+    margin-top: 0.5rem;
+}
 .sprache {
     display: flex;
     flex-direction: row;

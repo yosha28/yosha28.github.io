@@ -97,6 +97,9 @@
 .divBew2 {
     white-space: pre-line;
     word-wrap: break-word;
+    font-size: 1.15rem;
+    line-height: 1.25rem;
+
 }
 
 .titName {

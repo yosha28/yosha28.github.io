@@ -163,6 +163,13 @@
     display: flex;
     flex-direction: column;
 }
+.your-block {
+    border: 3px solid #f8eaf3; /* 1px — толщина, solid — тип линии, #000000 — цвет */
+    display: flex;
+    justify-content: center; /* Выравнивание по горизонтали (слева и справа будет поровну) */
+    align-items: center;     /* Выравнивание по вертикали (если нужно и сверху/снизу поровну) */
+
+}
 a{
     display: flex;
     flex-direction: row;
